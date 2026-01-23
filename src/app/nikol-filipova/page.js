@@ -19,7 +19,7 @@ export const metadata = {
     title: "Mgr. Nikol Filipová | Psychologické poradenství a krizová intervence",
     description:
       "Citlivé psychologické poradenství a krizová intervence. Bezpečný prostor, odborné vedení a podpora v náročných životních situacích.",
-    url: "https://psychologfm.cz/nikola-filipova",
+    url: "https://psychologfm.cz/nikol-filipova",
     type: "website"
   }
 };

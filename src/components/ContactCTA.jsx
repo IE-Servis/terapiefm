@@ -10,10 +10,10 @@ export function ContactCTA() {
         </p>
         <div className="flex flex-wrap gap-4 text-sm font-semibold">
           <a
-            href="mailto:nikola.filipova@psychologfm.cz"
+            href="mailto:nikol.filipova@psychologfm.cz"
             className="rounded-full border border-borderLight bg-lightBlueBackground px-4 py-2 text-primaryBlue transition hover:border-primaryBlue hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
           >
-            nikola.filipova@psychologfm.cz
+            nikol.filipova@psychologfm.cz
           </a>
           <a
             href="tel:+420000000000"
