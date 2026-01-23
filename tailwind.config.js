@@ -1,9 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./index.html",
-    "./nikola-filipova.html",
-    "./src/**/*.{js,ts}"
+    "./src/app/**/*.{js,jsx}",
+    "./src/components/**/*.jsx"
   ],
   theme: {
     extend: {
