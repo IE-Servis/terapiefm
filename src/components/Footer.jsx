@@ -3,7 +3,7 @@ export function Footer() {
   return (
     <footer className="border-t border-borderLight py-10">
       <div className="mx-auto flex max-w-7xl flex-col gap-2 px-6 text-sm text-textMuted md:flex-row md:items-center md:justify-between">
-        <span>© {year} psychologfm.cz</span>
+        <span>© {year} Terapie FM (terapiefm.cz)</span>
       </div>
     </footer>
   );

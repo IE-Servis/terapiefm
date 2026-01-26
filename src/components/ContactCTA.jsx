@@ -10,16 +10,16 @@ export function ContactCTA() {
         </p>
         <div className="flex flex-wrap gap-4 text-sm font-semibold">
           <a
-            href="mailto:nikol.filipova@psychologfm.cz"
+            href="mailto:filipova@psychologfm.cz"
             className="rounded-full border border-borderLight bg-lightBlueBackground px-4 py-2 text-primaryBlue transition hover:border-primaryBlue hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
           >
-            nikol.filipova@psychologfm.cz
+            filipova@psychologfm.cz
           </a>
           <a
-            href="tel:+420000000000"
+            href="tel:+420792362269"
             className="rounded-full border border-borderLight bg-lightBlueBackground px-4 py-2 text-primaryBlue transition hover:border-primaryBlue hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
           >
-            +420 000 000 000
+            +420 792 362 269
           </a>
         </div>
       </div>

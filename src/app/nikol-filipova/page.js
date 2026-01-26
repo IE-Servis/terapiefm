@@ -12,11 +12,11 @@ import { RevealObserver } from "../../components/RevealObserver";
 import { nikolaProfile } from "../../data/nikola";
 
 export const metadata = {
-  title: "Mgr. Nikol Filipová | Psychologické poradenství a krizová intervence",
+  title: "Mgr. Nikol Filipová | Terapie FM",
   description:
     "Citlivé psychologické poradenství a krizová intervence. Bezpečný prostor, odborné vedení a podpora v náročných životních situacích.",
   openGraph: {
-    title: "Mgr. Nikol Filipová | Psychologické poradenství a krizová intervence",
+    title: "Mgr. Nikol Filipová | Terapie FM",
     description:
       "Citlivé psychologické poradenství a krizová intervence. Bezpečný prostor, odborné vedení a podpora v náročných životních situacích.",
     url: "https://psychologfm.cz/nikol-filipova",
@@ -27,8 +27,6 @@ export const metadata = {
 export default function NikolaFilipovaPage() {
   return (
     <div className="relative overflow-hidden">
-      <div className="pointer-events-none absolute -top-40 right-0 h-80 w-80 rounded-full bg-softBlue/50 blur-3xl" aria-hidden="true"></div>
-      <div className="pointer-events-none absolute top-1/3 -left-24 h-72 w-72 rounded-full bg-primaryBlue/20 blur-3xl" aria-hidden="true"></div>
       <Menu />
       <main className="mx-auto max-w-7xl px-6 pb-20 pt-12">
         <div className="section-spacing">

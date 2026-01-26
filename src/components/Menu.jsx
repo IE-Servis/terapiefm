@@ -1,42 +1,40 @@
-export function Menu() {
+const defaultItems = [
+  { label: "O mně", href: "#o-mne" },
+  { label: "S čím mohu pomoci", href: "#pomoc" },
+  { label: "Odbornost", href: "#odbornost" },
+  { label: "Kontakt", href: "#kontakt" }
+];
+
+export function Menu({ items = defaultItems }) {
   return (
     <header className="sticky top-0 z-50 border-b border-borderLight bg-lightBlueBackground/90 backdrop-blur">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <a href="/" className="text-lg font-semibold tracking-tight text-textDark">
-          psychologfm.cz
+        <a href="/" className="flex items-center gap-4 text-2xl font-semibold tracking-tight text-primaryBlue">
+          <img
+            src="/Menu_Logo.svg"
+            alt="Terapie FM"
+            className="h-14 w-14"
+            loading="lazy"
+          />
+          <span>Terapie FM</span>
         </a>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex" aria-label="Hlavní navigace">
-          <a
-            className="transition hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
-            href="#o-mne"
-          >
-            O mně
-          </a>
-          <a
-            className="transition hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
-            href="#pomoc"
-          >
-            S čím mohu pomoci
-          </a>
-          <a
-            className="transition hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
-            href="#odbornost"
-          >
-            Odbornost
-          </a>
-          <a
-            className="transition hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
-            href="#kontakt"
-          >
-            Kontakt
-          </a>
+          {items.map((item) => (
+            <a
+              key={item.href}
+              className="transition hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
+              href={item.href}
+            >
+              {item.label}
+            </a>
+          ))}
         </nav>
         <a
-          href="#kontakt"
+          href="https://ie-servis-s-r-o.reservio.com/"
           className="hidden rounded-full bg-warmAmber px-5 py-2 text-sm font-semibold text-white shadow-soft transition hover:bg-[#C99764] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber md:inline-flex"
-          aria-label="Objednat konzultaci"
+          aria-label="Rezervovat termín"
         >
-          Objednat konzultaci
+          Rezervovat termín
         </a>
         <a
           href="#kontakt"

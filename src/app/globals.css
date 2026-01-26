@@ -23,6 +23,10 @@ body {
   @apply space-y-16;
 }
 
+section[id] {
+  scroll-margin-top: 96px;
+}
+
 .reveal {
   opacity: 0;
   transform: translateY(18px);
@@ -69,6 +73,19 @@ body {
   outline-offset: 3px;
 }
 
+.hero-vector {
+  opacity: 0;
+  transform: translateY(24px);
+  animation: hero-vector-fly 700ms ease-out forwards;
+}
+
+@keyframes hero-vector-fly {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -83,4 +100,11 @@ body {
   .scroll-top {
     transition: none;
   }
+
+  .hero-vector {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+
 }

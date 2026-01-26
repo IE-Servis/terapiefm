@@ -15,7 +15,7 @@ export function HelpAreas({ profile }) {
       <div className="grid gap-6 md:grid-cols-2">
         {profile.helpAreas.map((item) => (
           <article key={item.title} className="flex gap-4 rounded-2xl border border-borderLight bg-white p-6 shadow-soft">
-            <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-softBlue/60 text-xl text-primaryBlue">
+            <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-softBlue/60 text-xl text-primaryBlue">
               <i className={icons[item.icon]} aria-hidden="true"></i>
             </div>
             <div className="space-y-2">
