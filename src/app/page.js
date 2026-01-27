@@ -3,6 +3,7 @@ import { Footer } from "../components/Footer";
 import { ScrollTop } from "../components/ScrollTop";
 import { RevealObserver } from "../components/RevealObserver";
 import { LandingHero } from "../components/LandingHero";
+import { LandingWhyUs } from "../components/LandingWhyUs";
 import { LandingHowItWorks } from "../components/LandingHowItWorks";
 import { LandingProfiles } from "../components/LandingProfiles";
 import { LandingLocation } from "../components/LandingLocation";
@@ -15,6 +16,7 @@ export const metadata = {
 
 export default function HomePage() {
   const landingItems = [
+    { label: "Proč právě u nás", href: "#my" },
     { label: "Jak to funguje", href: "#jak" },
     { label: "Medailonky", href: "#medailonky" },
     { label: "Kontakt", href: "#kontakt" }
@@ -26,6 +28,7 @@ export default function HomePage() {
       <main className="mx-auto max-w-7xl px-6 pb-20 pt-12">
         <div className="section-spacing">
           <LandingHero />
+          <LandingWhyUs />
           <LandingHowItWorks />
           <LandingProfiles profiles={profiles} />
           <LandingLocation />
