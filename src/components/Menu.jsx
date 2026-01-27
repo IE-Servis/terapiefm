@@ -31,6 +31,8 @@ export function Menu({ items = defaultItems }) {
         </nav>
         <a
           href="https://ie-servis-s-r-o.reservio.com/"
+          target="_blank"
+          rel="noreferrer noopener"
           className="hidden rounded-full bg-warmAmber px-5 py-2 text-sm font-semibold text-white shadow-soft transition hover:bg-[#C99764] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber md:inline-flex"
           aria-label="Rezervovat termín"
         >
