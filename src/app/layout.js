@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Terapie FM",
+  title: "Psycholog FM",
   description: "Psychologické poradenství a krizová intervence. Profesionální a empatická péče.",
   icons: {
     icon: "/favicon.svg"

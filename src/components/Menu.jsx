@@ -12,11 +12,11 @@ export function Menu({ items = defaultItems }) {
         <a href="/" className="flex items-center gap-4 text-2xl font-semibold tracking-tight text-primaryBlue">
           <img
             src="/Menu_Logo.svg"
-            alt="Terapie FM"
+            alt="Psycholog FM"
             className="h-14 w-14"
             loading="lazy"
           />
-          <span>Terapie FM</span>
+          <span>Psycholog FM</span>
         </a>
         <nav className="hidden items-center gap-6 text-sm font-medium md:flex" aria-label="Hlavní navigace">
           {items.map((item) => (

@@ -10,7 +10,7 @@ import { LandingLocation } from "../components/LandingLocation";
 import { profiles } from "../data/profiles";
 
 export const metadata = {
-  title: "Terapie FM | Psychologické poradenství",
+  title: "Psycholog FM | Psychologické poradenství",
   description: "Psychologické poradenství a krizová intervence. Profesionální a empatická péče."
 };
 

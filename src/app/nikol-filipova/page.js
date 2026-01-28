@@ -12,11 +12,11 @@ import { RevealObserver } from "../../components/RevealObserver";
 import { nikolaProfile } from "../../data/nikola";
 
 export const metadata = {
-  title: "Mgr. Nikol Filipová | Terapie FM",
+  title: "Mgr. Nikol Filipová | Psycholog FM",
   description:
     "Citlivé psychologické poradenství a krizová intervence. Bezpečný prostor, odborné vedení a podpora v náročných životních situacích.",
   openGraph: {
-    title: "Mgr. Nikol Filipová | Terapie FM",
+    title: "Mgr. Nikol Filipová | Psycholog FM",
     description:
       "Citlivé psychologické poradenství a krizová intervence. Bezpečný prostor, odborné vedení a podpora v náročných životních situacích.",
     url: "https://psychologfm.cz/nikol-filipova",
