@@ -9,7 +9,7 @@ export const profiles = [
   {
     name: "Mgr. Karel Černín",
     role: "Psychologické poradenství",
-    href: "#",
+    href: "/karel-cernin",
     image: "/Nikola-Filipova.svg",
     note: "Individuální terapie, podpora v náročných životních změnách, osobní rozvoj."
   }

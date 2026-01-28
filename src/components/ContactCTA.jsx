@@ -1,4 +1,8 @@
-export function ContactCTA() {
+export function ContactCTA({
+  email = "filipova@psychologfm.cz",
+  phone = "+420 792 362 269",
+  ctaHref = "https://ie-servis-s-r-o.reservio.com"
+}) {
   return (
     <section id="kontakt" className="grid gap-8 rounded-3xl border border-borderLight bg-white p-8 shadow-soft md:grid-cols-[1.1fr_0.9fr] reveal" data-reveal>
       <div className="space-y-4">
@@ -10,16 +14,16 @@ export function ContactCTA() {
         </p>
         <div className="flex flex-wrap gap-4 text-sm font-semibold">
           <a
-            href="mailto:filipova@psychologfm.cz"
+            href={`mailto:${email}`}
             className="rounded-full border border-borderLight bg-lightBlueBackground px-4 py-2 text-primaryBlue transition hover:border-primaryBlue hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
           >
-            filipova@psychologfm.cz
+            {email}
           </a>
           <a
-            href="tel:+420792362269"
+            href={`tel:${phone.replace(/\s+/g, "")}`}
             className="rounded-full border border-borderLight bg-lightBlueBackground px-4 py-2 text-primaryBlue transition hover:border-primaryBlue hover:text-primaryBlue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
           >
-            +420 792 362 269
+            {phone}
           </a>
         </div>
       </div>
@@ -28,7 +32,7 @@ export function ContactCTA() {
           Rezervujte si termín snadno a bezpečně přes systém Reservio, ať už preferujete osobní nebo online setkání.
         </p>
         <a
-          href="https://ie-servis-s-r-o.reservio.com"
+          href={ctaHref}
           target="_blank"
           rel="noreferrer noopener"
           className="inline-flex items-center justify-center rounded-full bg-warmAmber px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-[#C99764] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
