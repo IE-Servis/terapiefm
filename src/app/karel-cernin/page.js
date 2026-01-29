@@ -9,7 +9,6 @@ import { ContactCTA } from "../../components/ContactCTA";
 import { Footer } from "../../components/Footer";
 import { ScrollTop } from "../../components/ScrollTop";
 import { RevealObserver } from "../../components/RevealObserver";
-import { nikolaProfile } from "../../data/nikola";
 import { karelProfile } from "../../data/karel";
 
 export const metadata = {
@@ -33,7 +32,7 @@ export default function KarelCerninPage() {
         <div className="section-spacing">
           <ProfileCard profile={karelProfile} />
           <About profile={karelProfile} />
-          <HelpAreas profile={nikolaProfile} />
+          <HelpAreas profile={karelProfile} />
           <Expertise profile={karelProfile} />
           <HowItWorks />
           <QuoteBlock profile={karelProfile} />

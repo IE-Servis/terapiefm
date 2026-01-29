@@ -22,9 +22,9 @@ export function LandingHero() {
             <a
               href="#medailonky"
               className="rounded-full border border-primaryBlue px-6 py-3 text-sm font-semibold text-primaryBlue transition hover:bg-softBlue/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
-              aria-label="Zobrazit medailonky"
+              aria-label="Poznat náš tým"
             >
-              Zobrazit medailonky
+              Poznat náš tým
             </a>
           </div>
         </div>

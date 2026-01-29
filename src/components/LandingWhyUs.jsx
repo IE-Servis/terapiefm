@@ -30,7 +30,7 @@ export function LandingWhyUs() {
     <section id="my" className="space-y-8 reveal" data-reveal>
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primaryBlue">Proč právě u nás</p>
-        <h2 className="text-2xl font-semibold text-textDark md:text-3xl">Proč právě u nás</h2>
+        <h2 className="text-2xl font-semibold text-textDark md:text-3xl">Hodnoty, na kterých naše práce stojí</h2>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         {reasons.map((reason) => (
