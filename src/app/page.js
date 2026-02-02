@@ -18,8 +18,8 @@ export default function HomePage() {
   const landingItems = [
     { label: "Proč právě u nás", href: "#my" },
     { label: "Jak to funguje", href: "#jak" },
-    { label: "Medailonky", href: "#medailonky" },
-    { label: "Kontakt", href: "#kontakt" }
+    { label: "S kým se můžete setkat", href: "#tym" },
+    { label: "Kde nás najdete", href: "#kontakt" }
   ];
 
   return (

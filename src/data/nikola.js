@@ -67,6 +67,7 @@ export const nikolaProfile = {
   expertise: [
     "Mgr. psychologie – VŠ Humanitas (ukončeno s vyznamenáním, 2025)",
     "Certifikovaný výcvik v krizové intervenci – Edugram, z.ú.",
+    "Víkendový kurz, Mansio, Úzkost a deprese",
     "Kurz Psycholog ve zdravotnictví – Ambulance klinické psychologie, s.r.o.",
     "Praxe: Rodinná a manželská poradna (Centrum psychologické pomoci), práce s dětmi v ústavní péči, školní intervence, sociální služby",
     "Specializace: Psychiatrické minimum, práce s obětmi trestných činů, podpora transgender klientely"

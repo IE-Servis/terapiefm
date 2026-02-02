@@ -1,6 +1,6 @@
 export function LandingProfiles({ profiles }) {
   return (
-    <section id="medailonky" className="space-y-8 reveal" data-reveal>
+    <section id="tym" className="space-y-8 reveal" data-reveal>
       <div className="space-y-3">
         <p className="text-sm font-semibold uppercase tracking-[0.2em] text-primaryBlue">S kým se můžete setkat</p>
         <h2 className="text-2xl font-semibold text-textDark md:text-3xl">

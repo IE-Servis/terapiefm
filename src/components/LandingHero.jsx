@@ -20,7 +20,7 @@ export function LandingHero() {
               Rezervovat konzultaci
             </a>
             <a
-              href="#medailonky"
+              href="#tym"
               className="rounded-full border border-primaryBlue px-6 py-3 text-sm font-semibold text-primaryBlue transition hover:bg-softBlue/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
               aria-label="Poznat náš tým"
             >

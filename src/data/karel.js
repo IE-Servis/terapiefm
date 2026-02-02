@@ -1,6 +1,11 @@
 export const karelProfile = {
   name: "Mgr. Karel Černín",
   service: "Psychologické poradenství",
+  photoSrc: "/karel-cernin-foto.png",
+  photoAlt: "Mgr. Karel Černín",
+  photoFit: "cover",
+  photoShape: "square",
+  photoPosition: "top",
   introQuote:
     "„Věřím, že změna nemusí být hrozbou – může být příležitostí, pokud jí porozumíme a dáme jí správný tvar.“",
   motto: "\u201eNevyřeším to za vás \u2013 ale společně to pojmenujeme. Až jednou zjistíte, že mě už nepotřebujete.\u201c",
@@ -56,6 +61,7 @@ export const karelProfile = {
   ],
   expertise: [
     "Mgr. psychologie – VŠ Humanitas",
+    "Víkendový kurz, Mansio, Úzkost a deprese",
     "Kurz Psycholog ve zdravotnictví – Ambulance klinické psychologie, s.r.o.",
     "Praxe: Více než 10 let se věnuji terapii tmou v rámci Beskydského rehabilitačního centra, kde pracuji se senzorickou deprivací a hlubší sebereflexí."
   ]

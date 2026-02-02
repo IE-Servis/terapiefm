@@ -7,11 +7,21 @@ export function ProfileCard({ profile }) {
         <p className="text-lg font-medium text-textMuted">{profile.service}</p>
         <p className="text-base leading-relaxed text-textMuted md:text-lg">{profile.introQuote}</p>
       </div>
-      <figure className="flex items-center justify-center overflow-hidden rounded-2xl border border-borderLight bg-lightBlueBackground shadow-soft">
+      <figure
+        className={`flex items-center justify-center overflow-hidden rounded-2xl border border-borderLight bg-lightBlueBackground shadow-soft ${
+          profile.photoShape === "square" ? "aspect-square w-full max-w-[320px] justify-self-center md:justify-self-end" : ""
+        }`}
+      >
         <img
-          src="/Nikola-Filipova.svg"
-          alt="Mgr. Nikol Filipová"
-          className="h-64 w-full object-contain p-6 md:h-80"
+          src={profile.photoSrc || "/Nikola-Filipova.svg"}
+          alt={profile.photoAlt || profile.name}
+          className={`h-64 w-full md:h-80 ${
+            profile.photoShape === "square" ? "h-full" : ""
+          } ${
+            profile.photoFit === "cover"
+              ? `object-cover ${profile.photoPosition === "top" ? "object-top" : "object-center"}`
+              : "object-contain p-6"
+          }`}
           loading="lazy"
         />
       </figure>
