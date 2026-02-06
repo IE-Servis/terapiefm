@@ -244,8 +244,12 @@ export function CookieConsent() {
       )}
 
       {snackbar && (
-        <div className="fixed bottom-6 left-6 z-50 rounded-2xl border border-borderLight bg-white px-4 py-3 text-sm font-semibold text-primaryBlue shadow-soft">
-          {snackbar}
+        <div className="cookie-snackbar fixed bottom-6 left-6 z-50 overflow-hidden rounded-2xl border border-borderLight bg-white px-4 py-3 text-sm font-semibold text-primaryBlue shadow-soft">
+          <span className="flex items-center gap-2">
+            <i className="fa-solid fa-circle-check" aria-hidden="true"></i>
+            {snackbar}
+          </span>
+          <span className="cookie-snackbar__bar" aria-hidden="true"></span>
         </div>
       )}
     </>
