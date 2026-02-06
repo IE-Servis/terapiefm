@@ -86,6 +86,41 @@ section[id] {
   }
 }
 
+.cookie-snackbar {
+  animation: snackbar-in 240ms ease-out;
+}
+
+.cookie-snackbar__bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+  background: #D4A373;
+  transform-origin: left;
+  animation: snackbar-bar 3s linear forwards;
+}
+
+@keyframes snackbar-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes snackbar-bar {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -107,4 +142,8 @@ section[id] {
     animation: none;
   }
 
+  .cookie-snackbar,
+  .cookie-snackbar__bar {
+    animation: none;
+  }
 }

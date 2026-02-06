@@ -17,7 +17,7 @@ export function LandingHero() {
               className="rounded-full bg-warmAmber px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-[#C99764] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
               aria-label="Objednat konzultaci"
             >
-              Rezervovat konzultaci
+              Rezervovat termín
             </a>
             <a
               href="#tym"

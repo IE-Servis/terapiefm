@@ -1,5 +1,7 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import Script from "next/script";
+import { CookieConsent } from "../components/CookieConsent";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -24,7 +26,15 @@ export default function RootLayout({ children }) {
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <CookieConsent />
+        <Script
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "ca50da76441d44e0bfea98786b9190c2"}'
+          strategy="afterInteractive"
+        />
+      </body>
     </html>
   );
 }
