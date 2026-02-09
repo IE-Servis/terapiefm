@@ -1,4 +1,5 @@
 import { Footer } from "../../components/Footer";
+import { ScrollTop } from "../../components/ScrollTop";
 
 export const metadata = {
   title: "Zásady ochrany osobních údajů | Psycholog FM"
@@ -274,7 +275,7 @@ export default function PrivacyPolicyPage() {
           </section>
         </div>
       </main>
-
+      <ScrollTop />
       <Footer />
     </div>
   );

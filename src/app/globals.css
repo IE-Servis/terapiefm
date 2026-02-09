@@ -121,6 +121,7 @@ section[id] {
   }
 }
 
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -146,4 +147,5 @@ section[id] {
   .cookie-snackbar__bar {
     animation: none;
   }
+
 }

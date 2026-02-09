@@ -6,6 +6,7 @@ import { LandingHero } from "../components/LandingHero";
 import { LandingWhyUs } from "../components/LandingWhyUs";
 import { LandingHowItWorks } from "../components/LandingHowItWorks";
 import { LandingProfiles } from "../components/LandingProfiles";
+import { LandingGallery } from "../components/LandingGallery";
 import { LandingLocation } from "../components/LandingLocation";
 import { profiles } from "../data/profiles";
 
@@ -31,6 +32,7 @@ export default function HomePage() {
           <LandingWhyUs />
           <LandingHowItWorks />
           <LandingProfiles profiles={profiles} />
+          <LandingGallery />
           <LandingLocation />
         </div>
       </main>
