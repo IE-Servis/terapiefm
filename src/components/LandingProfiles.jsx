@@ -12,7 +12,14 @@ export function LandingProfiles({ profiles }) {
           <article key={profile.name} className="flex h-full flex-col gap-4 rounded-2xl border border-borderLight bg-white p-6 shadow-soft">
             <div className="flex items-start gap-4">
               <figure className="flex h-20 w-20 items-center justify-center overflow-hidden rounded-2xl border border-borderLight bg-lightBlueBackground">
-                <img src={profile.image} alt={profile.name} className="h-full w-full object-contain p-2" loading="lazy" />
+                <img
+                  src={profile.image}
+                  alt={profile.name}
+                  className={`h-full w-full ${
+                    profile.imageFit === "cover" ? "object-cover" : "object-contain"
+                  } ${profile.imagePadding ?? "p-2"}`}
+                  loading="lazy"
+                />
               </figure>
               <div className="space-y-2">
                 <h3 className="text-xl font-semibold text-textDark">{profile.name}</h3>

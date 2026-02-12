@@ -1,6 +1,11 @@
 export const nikolaProfile = {
   name: "Mgr. Nikol Filipová",
   service: "Psychologické poradenství a krizová intervence",
+  photoSrc: "/nikol-filipova-foto.png",
+  photoAlt: "Mgr. Nikol Filipová",
+  photoFit: "cover",
+  photoShape: "square",
+  photoPosition: "top",
   introQuote:
     "„Chaos v našem životě není překážkou, ale motorem ke změně. Nebojme se ho – je to síla, která nás učí hledat nové cesty. Skrze ztišení se rodí nové poznání.“",
   motto: "\u201eKlid v nás začíná tam, kde končí strach z vlastního příběhu.\u201c",
