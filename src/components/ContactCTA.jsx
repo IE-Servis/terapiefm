@@ -1,7 +1,7 @@
 export function ContactCTA({
   email = "filipova@psychologfm.cz",
   phone = "+420 792 362 269",
-  ctaHref = "https://ie-servis-s-r-o.reservio.com"
+  ctaHref = "https://ordinace-psychologickeho-poradenstvi-a-diagnostiky.reservio.com/"
 }) {
   return (
     <section id="kontakt" className="grid gap-8 rounded-3xl border border-borderLight bg-white p-8 shadow-soft md:grid-cols-[1.1fr_0.9fr] reveal" data-reveal>

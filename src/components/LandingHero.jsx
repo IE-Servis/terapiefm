@@ -11,7 +11,7 @@ export function LandingHero() {
           </p>
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://ie-servis-s-r-o.reservio.com/"
+              href="https://ordinace-psychologickeho-poradenstvi-a-diagnostiky.reservio.com/"
               target="_blank"
               rel="noreferrer noopener"
               className="rounded-full bg-warmAmber px-6 py-3 text-sm font-semibold text-white shadow-soft transition hover:bg-[#C99764] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"

@@ -67,7 +67,7 @@ export function HelpAreas({ profile }) {
                 <i className="fa-solid fa-circle-info" aria-hidden="true"></i>
               </button>
               <a
-                href="https://ie-servis-s-r-o.reservio.com"
+                href="https://ordinace-psychologickeho-poradenstvi-a-diagnostiky.reservio.com/"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-borderLight text-primaryBlue transition hover:border-primaryBlue hover:bg-softBlue/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-warmAmber"
